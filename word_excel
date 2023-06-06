@@ -1,0 +1,981 @@
+Qanday dasturlarning asosiy vazifasi ma’lumotlarni jadval ko’rinishida tasvirlash va qayta
+ishlash bo’lib, birlamchi vazifasi hisob-kitobllarni avtomatlashtitishdan iborat?
+elektron jadvallarni
+matn protsessorlarini
+Paint dasturini
+operatsion sistemalarni
+Excelning bitta kitobiga nechtagacha varaq(лист) joylashtirish mumkin?
+255
+256
+28
+16384
+Excel dasturida satr va ustun kesishmasi nima deyiladi?
+katakcha
+jadval
+Ustun
+formula
+Katakchaga son ham, formula ham kiritilmagan holatda Excel uni nima deb tushunadi?
+matn
+formula
+son
+satr
+Katakchga kiritilayotgan “=” (tenglik) belgisidan boshlangan ketma-ketlik bu …
+formula
+son
+matn
+satr
+Jadvaldagi belgilangan(hoshiyali) katakcha …….. deyiladi.
+joriy katakcha
+katakchalar bloki
+matn
+formula
+Elektron jadvallarda katakchalardan iborat ixtiyoriy belgi-langan to’rtburchak yoki
+to’tbuchaklar to’plami … deyiladi?
+katakchalar bloki
+joriy katakcha
+matn
+formula
+Excelda qanday murojaatda formula nusxalaridagi katakchalar adreslari nusxa
+joylashtirilayotgan katakchaga mos o’zgaradi?
+nisbiy
+Joriy
+absolyut
+amaliy
+Excelda qanday murojaatda formula nusxalaridagi katakchalar adreslari o’zgarmaydi? absolyut
+joriy
+nisbiy
+Amaliy
+To’g’ri javob yo’q
+Funksiya natijasini aniqlang: ЗНАК(-1975)
+-1
+1975
+1
+0
+Funksiya natijasini aniqlang: КОРЕНЬ(0,36)
+0,6
+36
+6
+3,6
+Funksiya natijasini aniqlang: ОСТАТ(1245;18)
+3
+6
+3
+1
+Funksiya natijasini aniqlang: СТЕПЕНЬ(2;8)
+256
+10
+0,25
+16
+A3 katakcha 75 soni, B8 katakchada 5 soni kiritilgan bo’lsa, ЦЕЛОЕ(A3/B8) funksiya
+qanday qiymatga ega bo’ladi?
+15
+0
+-75
+1
+И(ОСТАТ(5;2)<ЦЕЛОЕ(5/2);КОРЕНЬ(256)=СТЕПЕНЬ(2;8)) funksiyaning natijasini
+aniqlang.
+ЛОЖЬ
+ИСТИНА
+1< 2; 16 = 256
+4
+ИЛИ(ОСТАТ(5;2)<КОРЕНЬ(256);ЦЕЛОЕ(5/2)=СТЕПЕНЬ(2;8)) funksiyaning natijasini
+aniqlang.
+ИСТИНА
+ЛОЖЬ
+256
+14
+Funksiyaning natijasini aniqlang: ЕСЛИ(ОСТАТ(24;2)=0;КОРЕНЬ(64);5)
+8
+0
+5
+1
+Funksiyaning natijasini aniqlang: МАКС(КОРЕНЬ(4);ОСТАТ(5;2);СТЕПЕНЬ(2;2))
+4
+2
+1
+10
+Funksiyaning natijasini aniqlang: МИН(ЦЕЛОЕ(6,5);7;МАКС(17,27);СТЕПЕНЬ(3;3))
+6
+7
+27
+17
+Agar A1 dan A8 gacha yacheykalarga 1 dan 8 gacha sonlar kiritilgan bo’lsa, (ya’ni:
+A1=1;A2=2;A3=3;…A8=8) СРЗНАЧ(A1:A8) funksiya qanday qiymatga ega bo’ladi?
+4.5
+1
+8
+5,5
+Excelda katakchalardagi yoki katakchalar blokidagi qiymatlarning yig’indisini hisoblash
+funksiyasi toping.
+СУММ
+ЗНАК
+ОСТАТ
+СРЗНАЧ
+Agar A1 dan A5 gacha yacheykalarga 1 dan 5 gacha sonlar kiritilgan bo’lsa, (ya’ni:
+A1=1;A2=2;A3=3;…A5=5) СЧЁТЕСЛИ(A1:A5;"=5") funksiya qanday qiymatga ega bo’ladi?
+1
+4
+3
+2
+Excelda matndagi belgilar sonini aniqlash funksiyasi to’g’ri ko’rsatilgan qatorni aniqlang
+ДЛСТР
+ЗАМЕНИТЬ
+ЗНАЧЕН
+СЦЕПИТЬ
+Funksiya natijasini aniqlang: ЗАМЕНИТЬ("abituriyent";1;11;"talaba")
+talaba
+talabaiyent
+1
+11
+Quyidagi funksiya qanday qiymatga ega bo’ladi?
+ПСТР("O'zbekiston-kelajagi buyuk davlat";22;5)
+buyuk
+33
+ston31
+Quyidagi funksiya qanday qiymatga ega bo’ladi?
+СЦЕПИТЬ(ПСТР("xarita";5;2);ПСТР("xarita";3;2);ПСТР("xarita";1;1))
+tarix
+xarita
+ritax
+atirax
+Agar A1 katakchaga 5 soni kiritilgan bo’lsa, quyidagi funksiya qanday qiymatga ega bo’ladi?
+ЕСЛИ(A1/2=ЦЕЛОЕ(A1/2);"juft son";"toq son")
+toq son
+juft son
+5
+2
+Matn ko’rinishidagi sonni songa o’tkazish funksiyasi qaysi javobda berilgan?
+ЗНАЧЕН
+СЦЕПИТЬ
+ПСТР
+СЧЁТЕСЛИ
+Agar A2=”Qo’shiq, B2=yo’ldosh, E2=”evrika” bo’lsa, quyidagi funksiya qanday natijaga
+erishadi?
+=СЦЕПИТЬ(ЛЕВСИМВ(A2;3);ПСТР(B2;4;5);ЛЕВСИМВ(E2;2))
+Qo’ldoshev
+Qo’rik
+Qo’yo’ldo
+Yo’doshev
+A1 va B1 katakchalaridagi sonlardan kattasining 2-raqamini kvadratga ko'tarish uchun qanday
+formula yoziladi?
+=СТЕПЕНЬ(ПСТР(МАКС(A1;B1);2;1);2)
+=СТЕПЕНЬ(МАКС(A1;B1);2;1)
+=СТЕПЕНЬ(ПСТР(A1;B1);2;1);2)
+=КОРЕНЬ(ПСТР(МАКС(A1;B1);2;1);2)
+Agar A1=123, B1=456 bo'lsa, quyidagi funksiya qanday vazifa bajaradi?
+=ПСТР(СРЗНАЧ(A1;B1);1;2)+4
+28
+28.95
+32
+24
+Google Disk har bir akkaunt uchun qancha joy ajratadi?
+Gbayt
+5 Tbayt
+10 Gbayt
+100 Gbayt.
+Ushbu logotip Googlening qaysi xizmat turiga tegishli?
+Google Drive (Disk)
+Google Photo
+Google Cards
+Google Translate
+Microsoft Excel dasturining Googledagi muqobil varianti…
+Google Tabs
+Google Excel
+Google Forms
+Google Sheets
+Google Drive da papka foydalanuvchilariga tahrirlashga ruxsat berish uchun qaysi rolni berish kerak?
+Chitatel
+Kommentator
+ Redaktor
+ O’qituvchi
+Fayl foydalanuvchilariga kommentator roli berilsa, foydalanuvchilar qanday imkoniyatdan foydalana
+oladilar?
+o’qiy oladilar
+o’qiydilar va izoh yoza oladilar
+ tahrirlaydilar
+ izoh yoza olmaydilar
+Google sheetsda jadvalga qanday qilib yangi qator qo’shish mumkin
+ sinqonchaning o’ng tugmasi, vstavit stroke vishe
+sinqonchaning o’ng tugmasi, vstavit stolbsa sleva
+ sinqonchaning chap tugmasi, vstavit stroke vishe
+ sinqonchaning o’ng tugmasi, vstavit stroke nije
+
+Google ning bu xizmati imkoniyatlarini belgilang
+Anketa tayyorlanadi, testlar tayyorlanadi
+Jadvallar yaratiladi
+ Rasmlarni saqlash mumkin
+ faqat anketa tayyorlanadi
+Google sheets da zakrepit oblasti buyrug’i qaysi menyuda joylashgan?
+Vid
+Vtavka
+ Pravka
+ Fayl
+rasmda ajratib ko’rsatilgan, belgi qanday vazifani bajaradi?
+ faylni o’zgartirish
+ fayl nomini o’zgartirish
+ Fayl joylashgan joyini o’zgartirish
+ Faylni tahrirlash
+Online taqdimotlar yaratishga mo’ljallangan Google ning xizmati?
+Google Slides
+Google Power point
+Google Forms
+Google Sheets
+MS Excel 2007 dasturida A3:E4 diapazonda nechta yacheyka joylashgan.
+10
+12
+16
+8
+MS Excel 2007 dasturida ustunlari sonini ko’rsating.
+16384
+65535
+256
+65536
+Ustun va satrlarning kesishish joyida … hosil bo’ladi.
+yacheyka
+ustun
+maydon
+satr
+MS Excel 2007 dasturida fayl xotiraga saqlanganda qanday kengaytma beriladi.
+.xlsx
+.xsl
+.doc
+.txt
+MS Excel dasturida yangi kitob hosil qilish uchun qaysi klavish bosiladi.
+Ctrl+N
+Ctrl+O
+Ctrl+A
+Ctrl+S
+MS Excel 2007 dasturida satrlari sonini ko’rsating.
+1048576
+256
+65536
+255
+Elektron jadvallarda jadval bo’ylab varoqlash uchun qaysi klavish bosiladi.
+PgUp, PgDn
+Ctrl+Home, Ctrl+End
+Delete, CapsLock
+Insert, NumLock
+… - katakchaga kiritilgan ketma-ketlik son ham, formula ham bo'lmagan hol.
+matn
+funksiya
+formula
+vaqt
+Microsoft Excel dasturida bu "########" qanday xatolik.
+sonlar yacheykaga sig’magan
+formula xato yozilgan
+funksiya nomi xato kiritilgan
+xato belgi kiritilgan
+Formulalar qanday belgi bilan boshlanadi.
+=
+@
+?
+%
+Katakchani tahrirlash uchun qaysi klavish bosiladi.
+F2
+Alt+Enter
+F3
+Enter
+Microsoft Excel dasturida dasturlashtirilgan formula bu - … deyiladi.
+funksiya
+dastur
+diagramma
+formula
+Yonma-yon joylashgan kataklar guruhiga ... aytiladi.
+maydon yoki diapazon
+maydon yoki ustun
+satr
+funksiya yoki formula
+MS Excel 2007 dasturida (A7:B4) maydon diapazonida nechta katakcha qamrab olingan?
+8
+9
+4
+14
+MS Excel 2007 dasturida joriy “Лист” dan boshqa “Лист” kataklariga murojaat to’g’ri javobni
+toping.
+Лист nomi!katak adresi
+Лист nomi/katak adresi
+Лист nomi//katak adresi
+Лист nomi.katak adresi
+MS Excel 2007 dasturida C5:E8 maydon diapazonida nechta katakcha qamrab olingan?
+12
+15
+40
+8
+Quyidagi keltirilgan misollardan qaysi biri uzluksiz axborot bo’la oladi?
+harorat, vaqt
+dars, yozuv
+teleko’rsatuv, vaqt
+o’qituvchi ma’ruzasi, vaqt
+A4 formatli sahifa o’lchamini to’g’ri ko’rsating.
+21x29,7 sm
+29,7x42 sm
+22x44 sm
+42x64 sm
+Microsoft Office tarkibiga kiruvchi dasturlar nomi noto`g’ri ko`rsatilgan qatorni tanlang.
+Lexicon
+Word, Access
+Power Point, Outlook
+Excel
+Excelda matn yo’nalishini qanday o’zgartiriladi?
+" Формат "-" Ячейки..." -" Выравнивание "
+" Формат "-" Шрифт..."
+" Формат "-" Ячейки..." -" Шрифт "
+" Формат "-" Ячейки..." -"Число"
+Excelda yaratilgan hujjatlar qanday ataladi?
+ish kitobi
+elektron jadval
+ish sahifasi
+Fayl
+Excelda formulalar satrida nima ifodalanadi?
+joriy yacheykadagi ma`lumotlar yoki foydalanilgan formula
+yacheyka nomi yoki manzili(adresi)
+Formula
+ish sahifasi nomi
+Excelda yacheyka yoki yacheykalar diapazoniga qanday qilib ism qo’yiladi?
+formulalar satridagi ism maydoni tanlanadi, ism teriladi va Enter bosiladi
+formulalar satri tanlanadi, ism teriladi va Enter bosiladi
+tanlangan yacheykaga ism kiritiladi va Enter bosiladi
+tanlangan yacheykalar diapazoniga ism kiritiladi va Enter bosiladi
+Excelda yacheykaga qanday axborotlarni kiritish mumkin emas?
+hajm ko’rinishidagi
+formula, son, funktsiya
+matn, formula, funktsiya
+funktsiya, son, matn
+Excelda formuladan nusxa olish yoki formulani qo’shni yacheykalarga tadbiq etish qanday amalga
+oshiriladi? formulali yacheyka tanlangach...
+uning ramkasidagi nuqtadan sichqoncha yordamida sudrab, kerakli yacheykaga keltiriladi
+uning ramkasidan sichqoncha yordamida sudrab, kerakli yacheykaga keltiriladi
+Alt tugmasini bosgan holda sichqoncha yordamida sudrab, kerakli yacheykaga keltiriladi
+Excel dasturi ishchi sohasi qanday ko’rinishda?
+katakchalarda iborat oq varaq
+A4 formatli oq varaq
+ustunlardan iborat oq varaq
+qatorlar ko’rinishidagi oq varaq
+Excel ishchi sohasi ustunlari va qatorlari qanday belgilanadi?
+ustunlar harflar bilan, qatorlar raqamlar bilan
+ustunlar raqamlar bilan, qatorlar harflar bilan
+ustunlar harflar bilan, qatorlar harflar bilan
+ustunlar raqamlar bilan, qatorlar raqamlar bilan
+Excel dasturi uchun D12=2009 yozuvi nimani anglatadi?
+2009 yozuvi D12 katakchada joylashganligini
+D12 yozuvi 2009 – katakchada joylashganligini
+D12 yozuvi va 2009 yozuvi aynan teng ekanligini
+D (date) kuni noma’lum, 12 oy va 2009 yil ma’nosini
+Formula kiritilib ENTER tugmasi bosilgach katakchada qanday ma’lumot akslanadi?
+formula natijasi
+Formula ko’rinishi, “=” belgisi, formula natijasi
+Formula ko’rinishi
+“=” belgisi
+Excel dasturida ma’lumotlarni tartiblashning qanday ketma - ketligi mavjud emas
+Ustunlarning joylashish o’rni bo’yicha
+Sonli va sanali qiymatlarni o’sish va kamayish tartibida
+Matnli ma’lumotlarni alfavit tartibida
+Mantiqiy amallarning natijalari bo’yicha
+Microsoft Excel bu…
+elektron jadval
+matn muharriri
+disk
+bosh meny
+Microsoft Office tarkibiga kiruvchi dasturlar nomi noto`g’ri ko`rsatilgan qatorni tanlang.
+Lexicon
+Word, Access
+Power Point, Outlook
+Excel
+MS EXCEL da yaratilga hujjat avtomatik qanaqa nom oladi?
+Книга 1
+Документ1
+Презентация1
+Новая папка
+MS Excel 2007da diagramma qo’yish qaysi menyudan amalga oshiriladi?
+Вставка
+Главная
+Вид
+Разметка страницы
+MS Excel 2007da formula qo’yish qaysi menyudan amalga oshiriladi?
+Формулы
+Главная
+Вид
+Разметка страницы
+Excel jadvalining asosiy elementi bu –
+yacheyka
+Satr
+Ustun
+jadval
+Microsoft Excel electron jadvalida A1:B3 yacheykalar guruhi tanlangan. Bu diapazonga nechta
+yacheyka kiradi?
+6
+5
+8
+2
+Microsoft Excel dasturida jadvaldagi satr tartib raqamiga (satr nomiga) sichqoncha ko’rsatkichi
+bilan bosilsa nima sodir bo’ladi?
+Satr to’liq belgilanadi
+Satr faollashadi
+Satr yashiriladi
+Satr o’chiriladi
+Microsoft Excel dasturida jadvaldagi ustun harfiga (ustun nomiga) sichqoncha ko’rsatkichi bilan
+bosilsa nima sodir bo’ladi?
+Ustun to’liq belgilanadi
+Ustun faollashadi
+Ustun yashiriladi
+Ustun o’chiriladi
+Microsoft Word va Excel dasturlarida keng tarqalgan virus nomini toping.
+makrovirus
+boot
+tarmoq
+fayl
+Microsoft Exceldа mеnyuning qаysi bo’limidа shrift tаnlаnаdi?
+«Формат»-"Ячейки..."-"Шрифт"
+«Формат»-" Ячейки…" "Выравнивание"
+" Шрифт..."
+«Формат»-" Шрифт "
+Microsoft Exceldа mаtn yo’nаlishini qаndаy o’zgаrtirilаdi?
+«Формат»-"Yachеyki..." "Vo’rаvnivаniе"
+«Формат»-"Yachеyki..." "Shrift"
+«Формат»-"Shrift..."
+«Формат»-"Yachеyki..." "Chislо"
+Microsoft Exceldа yarаtilgаn hujjаtlаr qаndаy аtаlаdi?
+ish kitоbi
+elеktrоn jаdvаl
+ish sаhifаsi
+fаyl
+Microsoft Exceldа fоrmulаlаr sаtridа nimа ifоdаlаnаdi?
+jоriy(tеkuщiy) yachеykаdаgi mа’lumоtlаr yoki fоydаlаnilgаn fоrmulа
+yachеykа nоmi yoki mаnzili(аdrеsi)
+fоrmulа
+ish sаhifаsi nоmi
+Microsoft Exceldа yachеykа yoki yachеykаlаr diаpаzоnigа qаndаy qilib ism qo’yilаdi?
+fоrmulаlаr sаtridаgi ism mаydоni tаnlаnаdi, ism tеrilаdi vа Enter bоsilаdi
+fоrmulаlаr sаtri tаnlаnаdi, ism tеrilаdi vа Enter bоsilаdi
+tаnlаngаn yachеykаgа ism kiritilаdi vа Enter bоsilаdi
+tаnlаngаn yachеykаlаr diаpаzоnigа ism kiritilаdi vа Enter bоsilаdi
+Microsoft Exceldа yachеykаgа qаndаy mа’lumоtlаr kiritish mumkin?
+barchasi to’g’ri
+fоrmulа, sоn, funktsiya
+mаtn, fоrmulа, funktsiya
+funktsiya, sоn, mаtn
+Microsoft Exceldа fоrmulаdаn nusха оlish yoki fоrmulаni qo’shni yachеykаlаrgа tаdbiq etish qаndаy аmаlgа оshirilаdi?
+fоrmulаli yachеykа tаnlаngаch...
+uning rаmkаsidаgi nuqtаdаn sichqоnchа yordаmidа sudrаb, kеrаkli yachеykаgа kеltirilаdi
+uning rаmkаsidаn sichkоnchа yordаmidа sudrаb, kеrаkli yachеykаgа kеltirilаdi
+Alt tugmаsini bоsgаn хоldа sichkоnchа yordаmidа sudrаb, kеrаkli yachеykаgа kеltirilаdi
+Ctrl tugmаsini bоsgаn хоldа sichkоnchа yordаmidа sudrаb, kеrаkli yachеykаgа kеltirilаdi
+Microsoft Excel jаdvаlining ustunlаri vа sаtrlаri sоni qаnchа?
+256 tа ustun vа 65536 tа sаtr
+255 tа ustun vа 65536 tа sаtr
+255 tа ustun vа 65535 tа sаtr
+256 tа ustun vа 65535 tа sаtr
+Excel dasturi ishchi sohasi qanday ko’rinishda?
+ katakchalarda iborat oq varaq
+A4 formatli oq varaq
+ustunlardan iborat oq varaq
+qatorlar ko’rinishidagi oq varaq
+Excel ishchi sohasi ustunlari va qatorlari qanday belgilanadi?
+ustunlar raqamlar bilan, qatorlar harflar bilan
+ustunlar harflar bilan, qatorlar harflar bilan
+ustunlar raqamlar bilan, qatorlar raqamlar bilan
+ustunlar harflar bilan, qatorlar raqamlar bilan
+Excel dasturi uchun D12=2009 yozuvi nimani anglatadi?
+D12 yozuvi 2009 – katakchada joylashganligini
+D12 yozuvi va 2009 yozuvi aynan teng ekanligini
+2009 yozuvi D12 katakchada joylashganligini
+D (date) kuni noma’lum, 12 oy va 2009 yil ma’nosini
+Excel dasturida formulalar yozishda qanday belgidan foydalaniladi?
+=
+#
+$
+&
+Formula kiritilib ENTER tugmasi bosilgach katakchada qanday ma’lumot akslanadi?
+ formula natijasi
+Formula ko’rinishi, “=” belgisi, formula natijasi
+Formula ko’rinishi
+“=” belgisi
+Diagramma tayyorlash uchun avvalo – …… kerak
+ boshlang’ich ma’lumotlar kiritilgan bo’lishi
+diagramma turi tanlanishi
+diagramma nomi kiritilgan bo’lishi
+diagramma joylashish o’rni tanlangan bo’lishi
+Ma’lumotlarni ajratib olish va guruhlash qanday amalga oshiriladi?
+ Данные – Фильтр
+Файл – Сортировка
+Сортировка – Данные – Фильтр
+Данные – Сортировка
+Excel dasturi yacheykasiga qanday ma’lumotlarni yozib bo’lmaydi.
+hajm
+matnli, sonli, vaqt
+formula, funksiya
+sana
+Yacheyka manzili to‘g‘ri yozilgan javobni ko‘rsating:
+B7
+F2C
+12A
+5D6
+Excelda D2 katakchadagi “=$A1*B3” formulaning E3 katakchaga nusxasini toping.
+=$A2*C4
+=$A1*B3
+=$B1*C4
+ =$A2*B4
+Microsoft Excel дастурида яратиладиган ҳужжатлар қандай номланади?
+“Книга”
+“Документ”
+“Лист”
+“Слайд”
+Microsoft Excel дастурида янги ҳужжат яратилса, унга қандай ном бириктирилади?
+“Листы 1”
+“Презентация 1”
+“Слайды 1”
+“Книга 1”
+« .xls» кенгайтмага эга бўлган файлни сичқончанинг чап тугмаси билан икки марта
+босилса нима содир бўлади?
+Microsoft Excel дастури ишга туширилади ва унга танланган ҳужжат юкланади
+Microsoft PowerPoint дастури ишга туширилади ва унга танланган ҳужжат юкланади
+Microsoft WordPad дастури ишга туширилади ва унга танланган ҳужжат юкланади
+Microsoft Access дастури ишга туширилади ва унга танланган ҳужжат юкланади
+Microsoft Excel дастурида ҳужжатни ёпиш учун қандай амал бажарилади? Тўғри жавоб
+вариантини кўрсатинг:
+«Файл\Закрыть» меню амалини бажариш
+«Alt+F4» тугмалар бирикмасини босиш
+«Файл\Выход» меню амалини бажариш
+«Закрыть» тугмасини босиш
+Microsoft Excel дастурида яратилган ҳужжатлар “Иш китоби” (рабочая книга) деб
+аталади. Microsoft Excel дастурида янги ҳужжат яратиш тартиби тўғри кўрсатилган
+вариантни танланг:
+«Файл\Создать»
+«Правка\Вставить книга»
+«Файл\Новая книга»
+«Вставка\Новая книга»
+Microsoft Excel дастурида яратилган иш китобини сақлаш мумкин бўлган тўғри
+вариантни кўрсатинг:
+«Файл\Сохранить»
+«Правка\Копировать»
+«Правка\Вставить»
+«Файл\Отправить»
+Microsoft Excel дастурида иш китобини очиш мумкин бўлган тўғри вариантни
+кўрсатинг:
+«Файл\Открыть»
+«Правка\Загрузить»
+«Вставка\Книга»
+«Файл\Открыть как»
+Microsoft Excel электрон жадвалида А1:В3 ячейкалар гуруҳи танланган. Бу диапазонга
+нечта ячейка киради?
+6
+8
+9
+12
+Microsoft Excel дастури иш китобига янги саҳифани (лист) қандай қўшиш мумкин?
+Саҳифа номига сичқонча чап тугмасини босинг ва пайдо бўлган менюдан “Добавить”
+амалини танланг
+Саҳифа номини танланг ва “Правка\Вставить” меню амалини бажаринг
+Саҳифа номини танланг ва клавиатурадан Insert тугмасини босинг
+Саҳифа номига сичқонча ўнг тугмасини босинг ва пайдо бўлган менюдан “Вставить”
+амалини танланг
+Microsoft Excel дастури иш китобидаги саҳифани (лист) қандай ўчириш мумкин?
+Саҳифа ёрлиғига сичқонча ўнг тугмасини босиб ва контекст менюсидан “Удалить”
+амалини танлаш билан
+Саҳифа номига сичқонча тугмасини босиш орқали уни белгилаб ва Delete тугмасини
+босиш билан
+Саҳифа номига сичқонча тугмасини босиш орқали уни белгилаб ва «Правка\Удалить»
+меню амалини бажариш билан
+Саҳифани белгилаб ва «Файл\Закрыть» меню амалини бажариш билан
+Microsoft Excel дастурида иш китоби саҳифаларини (лист) қандай қилиб тез қайта
+номлаш мумкин?
+Саҳифа номига сичқонча чап тугмасини икки марта босинг ва саҳифа янги номини
+киритинг
+Саҳифа номига сичқонча чап тугмасини босиш орқали уни белгиланг, F2 тугмасини
+босинг ва саҳифа янги номини киритинг
+Саҳифа номига сичқонча чап тугмасини босиш орқали уни белгиланг,
+“Файл\Переименовать” меню амалини бажаринг ва саҳифа янги номини киритинг
+Саҳифа номига сичқонча ўнг тугмасини босинг, котекст менюсидан “Переименовать”
+амалини танланг ва саҳифа янги номини киритинг
+Microsoft Excel дастурида иш китоби саҳифаларини (лист) қандай қилиб кўчириш ёки
+нусҳа олиш мумкин?
+Саҳифа номига сичқонча ўнг тугмасини босиш ва контекст менюсидан
+“Переместить\Скопировать” амалини бажариш орқали
+Саҳифани танлаш ва «Правка\Копировать», «Правка\Вставить» меню амалларини
+бажариш орқали
+Саҳифани танлаш ва «Правка\Вырезать», «Правка\Вставить» меню амалини бажариш
+орқали
+Саҳифани танлаш ва Ускуналар панелидан “Копировать” ва “Вставить” тугмаларини
+босиш орқали
+Microsoft Excel дастурида жадвалдаги сатр тартиб рақамига (сатр номига) сичқонча
+кўрсаткичи билан босилса нима содир бўлади?
+Сатр тўлиқ белгиланади
+Сатр фаоллашади
+Курсор танланган сатрга ўрнатилади
+Сатрнинг экранда кўринган қисми белгиланади
+Microsoft Excel дастурида жадвалдаги устун сарлавҳасига сичқонча кўрсаткичи билан
+босилса нима содир бўлади?
+Устун тўлиқ белгиланади
+Устуннинг экранда кўринган қисми белгиланади
+Хеч гарса содир бўлмайди
+Устун фаоллашади
+Microsoft Excel дастурида қуйида келтирилган функцияларнинг қайси бири мантиқий
+ҳисобланади?
+ЕСЛИ
+СУММ
+МАХ
+СРЗНАЧ
+Microsoft Excel дастурида қуйида келтирилган маълумотлар турининг қайси бири
+мавжуд эмас?
+График
+Сонли
+Пул бирлиги
+Вақт ва сана
+EHM larining asosiy qurilmalariga nimalar kiradi?
+sistemali blok, monitor, klaviatura, sichqoncha
+sistemali blok, monitor, sichqoncha
+klaviatura, sistemali blok, protsessor, sichqoncha
+sistemali blok, klaviatura, monitor, sichqoncha, printer
+EHM ning qaysi qurilmasi axborotlarni qayta ishlash vazifasini bajaradi?
+sistemali blok
+HDD (doimiy xotira)
+Klaviatura
+Monitor
+EHM ning ishlash prinsipi qaysi sanoq sistemasiga asoslangan?
+Ikkilik
+arab raqamlari
+arab va rim raqamlari
+rim raqamlari
+EHM ning ishlash prinsipi qaysi sanoq sistemasiga asoslangan va buning sababi?
+ikkilik, sababi: elektr tokining mavjud yoki mavjudmasligiga asoslangan
+o’nlik, sababi: butun dunyoda ishlatiladigan yagona sanoq sistemasi
+ikkilik, sababi bunda eng kam raqamlar qatnashadi
+o’ttiz ikkilik va o’n oltilik, sababi: ushbu sanoq sistemalarida ko’proq amalni bajarish mumkin
+Birinchi EHM loyihasini kim yaratgan?
+Jon fon Neyman
+Jorj Bul
+Norbert Vinner
+Charlz Bebbidj
+Disk yurituvchi bu - … qurilma.
+Axborotni o’quvchi va yozuvchi
+Axborot chiqaruvchi
+Axborotni saqlovchi va qayta ishlovchi
+Axborot kirituvchi
+To’g’ri fikrni aniqlang:
+CD-ROM – axborotni kiritish qurilmasi
+Printer – axborotni kodlash qurilmasi
+Monitor – axborotni kiritish qurilmasi
+Klaviatura – axborotni kiritish va chiqarish qurilmasi
+Operatsion tizim bu - …
+EHM barcha qurilmalari ishini muvofiqlashtiruvchi va EHM – foydalanuvchi muloqotini amalga
+oshiruvchi dasturlar to’plami
+Ayrim vazifalarni bajarish uchun kerak bo’ladigan matematik amallar tizimi
+EHM larini rejali ta’mirlash va texnik xizmat ko’rsatish uchun mo’ljallangan dasturlar tizimi
+Eng mukammal dasturlash tili
+Modem nima?
+Komp’yuterlararo ma`lumot almashishni ta`minlovchi qurilma
+Qog’ozdagi ma`lumotni komp’yuterga kirituvchi qurilma
+Ma`lumotlarni saqlovchi qurilma
+Ma`lumotlarni qog’ozga bosib chiqaruvchi qurilma
+Skaner qanday qurilma?
+fotosur’at, grafik va matn shaklidagi ma`lumotlarni komp’yuterga kirituvchi qurilma
+komp’yuterlararo ma`lumot almashishni ta`minlovchi qurilma
+ma`lumotlarni saqlovchi qurilma
+ma`lumotlarni qog’ozga bosib chiqaruvchi qurilma
+Kompyuterda axborotlar qanday o`lchov birliklarida beriladi
+bit, bayt, kilobayt, megabayt, gigabayt, terabayt
+gerts, kilogerts, megagerts, gigagerts, teragerts
+bod, bit, kilobit, megabit
+kilobit, kilobod, kilogerts,
+Ish stoli nima?
+komp’yuter ishga tushirilgach ekranda hosil bo’ladigan windowsning bosh oynasi
+barcha ishga tushirilgan programmalar ro’yxatini tasvirlovchi satr
+komp’yuter joylashtiriladigan stol
+komp’yuter va uning barcha qoshimcha qurilmalari joylashtiriladigan stol
+Yоrliq nima?
+fayl joylashgan manzilni saqlovchi maxsus fayl-piktogramma nusxasi
+oyna belgilari jamlanmasi
+menyu buyruqlari belgilari
+programma belgilari
+Microsoft Office bu:
+ofis dasturlar paketi
+shaxsiy komp’yuterni markasi
+integrirallangan hujjat
+elektron jadval
+Microsoft Office paketi tarkibiga quyidagilar kirmaydi
+Adobe Photoshop
+Excel
+Power Point
+Word, FrontPage
+Fayllarni arxivlash nima?
+Diskdagi joyni tejash yoki fayllarni saqlab qo’yish maqsadida ular hajmini kichraytirish
+Barcha fayllar haqidagi ma`lumotlarni bir joyda saqlash
+Yоrdamchi diskni tayyorlash
+Fayllarni maxsus papkaga joylash
+Arxivlash dasturlari bir-biridan nimasi bilan farqlanadi?
+Arxivlash va zichlash samaradorligi bilan
+Arxivlash, arxivni ochish va zichlash samaradorligi bilan
+Qo’llaniladigan matematik usul, arxivlash, arxivni ochish va zichlash samaradorligi bilan
+Ko’proq fayllarni zichlay olishi bilan
+Arxiv fayli nima?
+Yagona faylga birlashtirilgan bir yoki bir necha fayllarning zichlashgan holdagi ko’rinishi
+Bu - arxiv dasturi bilan bir xil fayl
+Maxsus kengaytma bilan ifodalanuvchi fayllar majmui
+Bu - saqlab qo’yiladigan fayllar ro’yxati
+Quyidagi arxivlash haqidagi fikrlardan qaysilari to’g’ri?
+Arxivlash jarayonida bir necha fayllar bir fayl sifatida ifodalanishi mumkin
+Arxivlash dasturlari faylning qismlarini uchirish natijasida uning hajmini kichraytiradi
+Fayllarni arxivlash jarayonida uning ma`lum qismlari boshqa fayllarga ko’chiriladi
+Arxivlash natijasida faylning hajmi kattalashishi ham mumkin
+Arxivlash samaradorligi nima?
+Fayl yoki fayllar guruxini arxivlashda maksimal zichlay olish qobiliyati
+Ko’proq fayllarni zichlay olish qobiliyati
+Ko’pchilik foydalanuvchilar uchun mo’ljallanganligi
+Arxiv fayllarini tezroq ocha olishi
+Eng sodda matn muharriri-?
+Blaknot
+WordPad
+Word
+Mathkad
+Eng sodda grafik muharriri-?
+Paint
+PowerPaint
+Photoshop
+CorelDraw
+Word dasturida jadval qaysi menyu orqali hosil qilinadi.
+Вставка
+Таблица
+Правка
+Форматирование, WEB, visual basic
+Word qanday dastur.
+matn muharriri
+Qobiq
+Grafik
+printer, shina
+Fayl nima?
+xotiraning nomlangan qismi bo`lib, ma`lum bir axborotni o`ziga saqlaydi
+yangi papka yaratish, nusxa qilish,
+modem turi
+Мой компьютер
+"Word"ning "Файл" menyusida qanday buyruqlar jamlangan?
+Hujjat yaratish, saqlab qo’yish, chop etish, sahifa kattaliklarini o’rnatish
+Sahifaga nomer qo’yish, sana va vaqtni kiritish, tasvirlar joylash
+Hujjat yaratish, saqlab qo’yish, chop etish, shriftlarni uzgartirish
+Qidirish, almashtirish, ajratilgan hujjat fragmentidan nusxa olish
+"Word"ning "Вставка" menyusida qanday buyruqlar jamlangan?
+Sahifaga nomer qo’yish, sana va vaqtni kiritish, tasvirlar joylash
+Hujjat yaratish, saqlab qo’yish, chop etish, sahifa kattaliklarini o’rnatish
+Jadval yaratish, saqlab qo’yish, chop etish, sahifa kattaliklarini o’rnatish
+Qidirish, almashtirish, ajratilgan hujjat fragmentidan nusxa olish
+"Word"ning "Формат" menyusida qanday buyruqlar jamlangan?
+Абзац, регистр, Колонка va Шрифтlar bilan ishlash
+Hujjat yaratish, saqlab qo’yish, chop etish, sahifa kattaliklarini o’rnatish
+Hujjatni ko’rish rejimini tanlash, kolontitul va uskunalar paneli bilan ishlash
+Jadval yaratish, saqlab qo’yish, chop etish, sahifa kattaliklarini o’rnatish
+"Word"da matnning biror qismi(fragmenti)ni boshqasi bilan almashtirish menyuning qaysi bo’limida amalga
+oshiriladi?
+"Правка"-"Заменить..."
+"Сервис"-"Параметры автозамены..." ("Автозамена...")
+"Вставка"-"Автотекст >"
+"Правка"-"Найти..."
+"Word"da sahifa nomeri sahifaning qayeriga qo’yiladi?
+Колонтитулga
+Sahifa yuqorisiga
+Sahifa pastiga
+Sahifa urtasiga
+"Word"da matnga tugmachalar qurilmasi (klaviatura) da bo’lmagan biror belgini joylashtirish qanday amalga
+oshiriladi?
+"Вставка"-"Символ..."
+"Вставка"-"Автотекст >"
+"Правка"-"Заменить..."
+"Сервис"-"Автозамена..."
+"Word"da xolatlar satrida nimalar ifodalanadi?
+Matn kursatkichining joylashish koordinatalari, hujjatning umumiy sahifalar soni va boshqa
+ma`lumotlar
+Vositalar paneli
+Menyu satri
+"Рисование" vositalar paneli
+"Word"da ajratilgan matn atrofiga ramka joylashtirish qanday amalga oshiriladi?
+"разметка страницы"-"Границы и заливка..."-"Граница"
+"Формат"-"Границы и заливка..."-"Страница"
+"Формат"-"Границы и заливка..."-"Заливка"
+"Таблица"-"Нарисовать таблицу"
+"Word"da satrlar orasidagi interval qanday o’zgartiriladi?
+"главная"-"междустрочный интервал"
+"Формат"-"интервал"
+"Рисование" paneli yordamida
+Orasiga bush satr qo’yish orqali
+MS WORD 2007 ning «Вставка» menyusidan qaysi amalni bajarib bo’lmaydi?
+Faylni saqlash
+Jadval joylashtirish
+Gippermurojaat o’rnatish
+Formula qo’yish
+MS WORD 2007 ning «Главная » menyusidan qaysi amalni bajarib bo’lmaydi?
+Jadval joylashtirish
+Shrift tanlash
+Nusxa olish
+Matnni markazdan joylashtirish
+MS WORD 2007 ning holatlar satrida nima namoyon bo’lmaydi?
+Fayl nomi
+Sahifalar soni
+Masshtab o’tkazgichi
+Belgilar soni
+MS WORD da yaratilgan hujjat avtomatik qanaqa nom oladi?
+Документ1
+Книга 1
+Презентация1
+Новая папка
+MS EXCEL da yaratilga hujjat avtomatik qanaqa nom oladi?
+Книга 1
+Документ1
+Презентация1
+Новая папка
+MS WORD da yaratilga hujjatning kengaytmasi qanaqa bo’ladi?
+*.doc, *.docx
+*.xls, *.xlsx
+*.ppt, *.pptx
+*.txt, *.mdb
+MS Word 2007da hujjatlarni himoyalash qaysi menyudan amalga oshiriladi?
+Рецензирование
+Главная
+Вид
+Разметка страницы
+MS Excel2007da hujjatlarni himoyalash qaysi menyudan amalga oshiriladi?
+Рецензирование
+Главная
+Вид
+Разметка страницы
+MS Word 2007 da sahifa parametrini sozlash qaysi menyudan amalga oshiriladi?
+Разметка страницы
+Главная
+Вид
+Рецензирование
+MS Word 2007 da chizg’ichni faollashtirish qaysi menyudan amalga oshiriladi?
+Вид
+Главная
+Разметка страницы
+Рецензирование
+MS Excel 2007da diagramma qo’yish qaysi menyudan amalga oshiriladi?
+Вставка
+Главная
+Вид
+Разметка страницы
+MS Excel 2007da formula qo’yish qaysi menyudan amalga oshiriladi?
+Формулы
+Главная
+Вид
+Разметка страницы
+MS Excel 2010 dagi ABS funksiyasi qanday vazifalarni bajarishga mo‘ljallangan?
+Argument qiymatining modulini hisoblaydi
+Argument sifatida berilgan butun son faktorialini hisoblaydi
+Sonning natural logarifmini hisoblaydi.
+Sonning eksponentasini hisoblaydi
+MS Excel 2010 da fayllar qanday kengaytmaga ega?
+.xlsx
+.lsx
+.txt
+.exe
+MS Excel 2010 da “МИН” funksiyasining vazifasi vazifasini toping.
+Berilgan sonlarning eng kichigini hisoblaydi
+Berilgan sonlarning eng kattasini hisoblaydi
+Berilgan sonlarning o‘rta arfimetigini hisoblaydi
+Shartni qanoatlantiruvchi blokning bo‘sh bo‘lmagan kataklar sonini sanaydi
+MS Excel 2010 da ishlash jaroyonida qanday xatolik yuzaga kelganda #3HAЧ!- belgi katakka hosil bo’ladi?
+MS Excel formulada mumkin bo`lmagan ifodalar qatnashmoqda
+ma’lumot katakka sig‘magan
+hisoblash formulasida 0 raqamiga bo‘lish holati mavjud
+formulada mumkin bo‘lmagan ifodalar qatnashmoqda, masalan: kirill shriftida o'zgaruvchilar ishlatilayotgan
+bo‘lishi mumkin
+MS Excel 2010 dagi ФАКТР funksiyasi qanday vazifalarni bajarishga mo‘ljallangan?
+Argument sifatida berilgan butun son faktorialini hisoblaydi
+Sonning eksponentasini hisoblaydi.
+Sonning natural logarifmini hisoblaydi
+Argument qiymatining modulini hisoblaydi
+MS Excel elektron jadvalida B2;C5 ifoda nechta katakni belgilaydi?
+2
+6
+4
+8
+MS Excel 2010 da ishlash jaroyonida qanday xatolik yuzaga kelganda #ЧИСЛО! belgi katakka hosil bo’ladi?
+formulada funksiya o'zgaruvchisi yoki qiymati noto’g’ri ishlatilmoqda
+katakka noto‘g‘ri murojaat qilingan.
+hisoblash formulasida 0 raqamiga bo‘lish holati mavjud
+katakka noto‘g‘ri oraliqda qiymat kiritilgan.
+MS Excel 2010 da ishlash jaroyonida qanday xatolik yuzaga kelganda #ДЕЛ/0 - belgi katakka hosil bo’ladi?
+hisoblash formulasida 0 raqamiga bo‘lish holati mavjud
+ma’lumot katakka sig‘magan
+formulada mumkin bo‘lmagan ifodalar qatnashmoqda, masalan: kirill shriftida o'zgaruvchilar ishlatilayotgan
+bo‘lishi mumkin
+MS Excel formuladagi o‘zgaruvchining nomini aniqlay olmadi
+Berilgan sonlarning o‘rta arfimetigini hisoblovchi funksiyani toping.
+СРЗНАЧ
+МАКС
+СЧЁТЕСЛИ
+МИН
+MS Excel 2010 dagi НОД funksiyasi qanday vazifalarni bajarishga mo‘ljallangan?
+Ikki va undan ortiq butun sonlaming eng kichik umumiy bo‘linuvchisini hisoblaydi.
+Ikki va undan ortiq sonlaming yig‘indisini hisoblaydi
+Ikki va undan ortiq butun sonlaming eng katta umumiy boiuvchisini hisoblaydi.
+Haqiqiy sonni yaxlitlaydi.
+MS Excel elektron jadvalida B2:C5 ifoda nechta katakni belgilaydi?
+8
+2
+6
+4
+Shartni qanoatlantiruvchi blokning bo‘sh bo‘lmagan kataklar sonini sanaydigan funksiyani toping.
+СЧЁТЕСЛИ
+СРЗНАЧ
+МИН
+МАКС
+MS Excel 2010 tasmasining Главная bo’limi qanday vazifalanii bajarishga mo‘ljallangan?
+jadvallardagi ma'lumotlarni kiritishga va tahrirlashga mo‘ljallangan;
+jadvalga biror rasm, diagramma kabi obyektlarni joylashtirishga mo‘ljallangan;
+jadvallardagi hisoblashlarni amalga oshiruvchi har xil formulalardan foydalanish uchun mo‘ljallangan;
+jadval varaqlarini bosmaga chiqarish uchun sahifalaming chegaralari va boshqa parametrlarini belgilash uchun
+mo'ljallangan;
+MS Excel 2010 da ishlash jaroyonida qanday xatolik yuzaga kelganda #ИМЯ? belgi katakka hosil bo’ladi?
+formulada mumkin bo‘lmagan ifodalar qatnashmoqda, masalan: kirill shriftida o'zgaruvchilar ishlatilayotgan
+bo‘lishi mumkin
+ma’lumot katakka sig‘magan
+hisoblash formulasida 0 raqamiga bo‘lish holati mavjud
+MS Excel formuladagi o‘zgaruvchining nomini aniqlay olmadi
+MS Excel 2010 ning standart varag'i harflar orqali belgilanuvchi nechta ustundan iborat?
+16348
+256
+1024512
+1048576
+MS Excel 2010 da kataklardagi matnlar bilan ishlashga mo` jallangan ДЛСТР funksiyasining vazifasi?
+Matnli satrdagi belgilar sonini aniqlaydi.
+Matn ko'rinishdagi sonni songa o'tkazadi.
+Sonni matnga almashtiradi
+Matnning belgilangan joyini yangi matnga almashtiradi.
+“Axborotlashtirish to’g’risida”gi qonun qachon qabul qilingan?
+2003 yilda
+2004 yilda
+2005 yilda
+2000 yilda
+“Elektron raqamli imzo to’g’risida“gi qonun qachon qabul qilingan?
+2003 yilda
+2004 yilda
+2005 yilda
+2000 yilda
+“Elektron hujjat aylanishi to’g’risida”gi qonun qachon qabul qilingan?
+2004 yilda
+2003 yilda
+2005 yilda
+2000 yilda
+“Elektron tijorat to’g’risida”gi qonun qachon qabul qilingan?
+2004 yilda
+2003 yilda
+2005 yilda
+2000 yilda
+“Elektron to’lovlar to’g’risida” gi qonun qachon qabul qilingan?
+2005 yilda
+2004 yilda
+2003 yilda
+2000 yilda
+www.ziyonet.uz ta’lim portalini yaratish to’grisidagi prezident farmoni qachon chiqarilgan?
+2006 yilda
+2004 yilda
+2003 yilda
+2005 yilda
+Milliy qidiruv tizimi qaysi?
+www.uz
+www.google.uz
+www.gov.uz
+www.edu.uz
+... deb kompyuter tarmog’ida asosiy axborotlar bazasini saqlovchi maxsus ajratilgan kompyuterga aytiladi.
+Server kompyuteri
+Superkompyuterlar
+Shaxsiy kompyuterlar
+Pоrtаtiv kompyuterlar
